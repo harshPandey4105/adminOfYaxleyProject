@@ -7,11 +7,13 @@ import DashboardContactus from '../DashboardContactus/DashboardContactus';
 import DashboardCountryInfo from '../DashboardCountryInfo/DashboardCountryInfo';
 import DashboardEvents from '../DashboardEvent/DashboardEvent';
 import DashboardTestPrep from '../DashboardTestPrep/DashboardTestPrep';
+import DashboardSignIn from '../DashboardSignIn/DashboardSignIn';
 
 const Dashboard = () => {
   return (
     <BrowserRouter>
       <DashboardNavbar />
+      <DashboardSignIn/>
       <Routes>
         <Route path="/" element={<DashboardHome />} />
         <Route path='/service' element={<DashboardServices/>} />
