@@ -1,0 +1,38 @@
+.dashboard-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 10px 50px;
+    position:sticky;
+    top:0;
+}
+
+.dashboard-navbar__logo {
+    
+}
+
+.dashboard-navbar__signup {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-signup__text {
+    color: #FF6612;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+.dashboard-signup__button {
+    background-color: #FF6612;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.dashboard-signup__button:hover {
+    background-color: hsl(21, 77%, 68%);
+}

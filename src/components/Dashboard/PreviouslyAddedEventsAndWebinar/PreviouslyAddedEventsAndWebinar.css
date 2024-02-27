@@ -1,0 +1,19 @@
+.details-container{
+    background-color: hwb(16 79% 3%);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.event-web-heading {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.event-web-heading h2{
+    color: #FF6612;
+    margin-right: 8px;
+}
+h2{
+    font-size: 20px;
+}

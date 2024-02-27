@@ -1,0 +1,19 @@
+.Dashboard-Home{
+    display: flex;
+    background-color: hsl(0, 3%, 93%);
+}
+
+.Dashboard-sidebar-section{
+    width: 40%;
+}
+
+.Dashboard-contant-section{
+    width: 80%;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+}
+.previously-added{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}

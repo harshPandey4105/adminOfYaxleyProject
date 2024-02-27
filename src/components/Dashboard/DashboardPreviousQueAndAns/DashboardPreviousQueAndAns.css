@@ -1,0 +1,27 @@
+.previous-que-and-ans {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: hwb(20 80% 2%);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.previous-que-and-ans h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color:#FF6612;
+}
+
+.previous-que-and-ans .question h3,
+.previous-que-and-ans .answer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.previous-que-and-ans .question p,
+.previous-que-and-ans .answer p {
+    margin-bottom: 10px;
+}

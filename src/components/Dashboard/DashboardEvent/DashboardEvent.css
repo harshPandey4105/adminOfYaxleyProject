@@ -1,0 +1,221 @@
+.dashboard-event-section {
+    display: flex;
+    background-color: hsl(0, 3%, 93%);
+}
+
+.Dashboard-sidebar-section {
+    width: 40%;
+}
+
+.dashboard-event-contain-section {
+    width: 80%;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.Dashboard-Events-heading {
+    margin: 20px 0;
+}
+
+.Dashboard-Events-heading h2 {
+    text-align: center;
+}
+
+.Dashboard-Events-heading p {
+    text-align: center;
+}
+
+.new-annoucement-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new-annoucement-bar-heading {
+    width: 90%;
+}
+
+.new-annoucement-bar-heading h1 {
+    font-size: large;
+}
+
+.new-annoucement-bar-input-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    width: 85%;
+}
+
+.large-width {
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #555555;
+}
+
+.small-width {
+    padding: 10px 20px;
+    width: 250px;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #555555;
+}
+
+.new-annoucement-bar-input-section input:hover {
+    border: 2px solid #FF6612;
+}
+
+.corousel-image-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.corousel-image-links-heading {
+    width: 90%;
+}
+
+.corousel-image-links-heading h1 {
+    font-size: large;
+}
+
+.all-events-and-webinars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.all-events-and-webinars p {
+    color: #FF6612;
+    font-size: medium;
+}
+
+/* **************************************** */
+.all-events-webinar-first-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.event-heading {
+    padding: 10px 20px;
+    width: 50%;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #555555;
+}
+
+.all-events-webinar-first-div select {
+    padding: 10px 20px;
+    /* width: 50%; */
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #555555;
+}
+
+.all-events-webinar-first-div input:hover {
+    border: 2px solid #FF6612;
+}
+
+.all-events-webinar-second-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-events-webinar-second-div textarea {
+    padding: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #555555;
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.all-events-webinar-pointers-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pointer-heading {
+    width: 90%;
+    margin: 10px;
+}
+
+.pointers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pointers input {
+    padding: 10px 20px;
+    width: 50%;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #555555;
+    margin: 10px 0;
+
+}
+
+.lastLinks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pushlish-btn {
+    width: 90%;
+    display: flex;
+    justify-content: right;
+}
+
+.pushlish-btn button {
+    background-color: #FF6612;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.pushlish-btn button:active {
+    background-color: hsl(21, 82%, 83%);
+}
+
+.date-input {
+    border: 2px solid #555555 ;
+    border-radius: 20px;
+    padding: 0 5px;
+    outline: none;
+    font-size: 16px;
+    width: 120px;
+    height: 50px;
+}
+.date-input :hover{
+    border: 2px solid #FF6612 ;
+    border-radius: 20px;
+    padding: 0 5px;
+    outline: none;
+    font-size: 16px;
+    width: 120px;
+    height: 50px;
+}
+.previously-heading{
+    margin: 20px 0;
+    text-align: center;
+}

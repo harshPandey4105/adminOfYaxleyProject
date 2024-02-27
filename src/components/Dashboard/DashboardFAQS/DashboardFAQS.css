@@ -1,0 +1,126 @@
+.Dashboard-Faqs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.Dashboard-home-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Dashboard-home-faqs-addQuetion{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.Dashboard-home-faqs-addQuetion span{
+  color:#FF6612;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.dropdown-container {
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+.dropdown-container select {
+  padding: 13px 20px;
+  font-size: 16px;
+  border-radius:30px;
+  border: 2px solid hsl(0, 0%, 71%);
+  width: 99%;
+}
+
+.dropdown-container select:focus {
+  outline: none;
+  border-color: #FF6612;
+}
+
+.Dashboard-home-faqs-section input{
+  padding: 15px;
+  padding-left: 30px;
+  border: 2px solid hsl(0, 1%, 63%);
+  margin: 15px 0;
+  border-radius: 30px;
+  width: 88%;
+  /* border-color: #FF6612; */
+}
+.Dashboard-home-faqs-section textarea{
+  border: 2px solid hsl(0, 1%, 63%);
+  border-radius: 20px;
+  padding: 20px;
+  /* border-color: #FF6612; */
+}
+.Dashboard-home-faqs-section textarea:focus{
+  outline: none;
+  border-color: #FF6612;
+  box-shadow: 0 0 5px hsl(21, 89%, 70%);
+}
+.Dashboard-home-faqs-section input:focus{
+  outline: none;
+  border-color: #FF6612;
+  box-shadow: 0 0 5px hsl(21, 89%, 70%);
+}
+.dashboard-publish-btn{
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  background-color: #FF6612;
+  border: none;
+  float: right;
+  margin: 10px;
+}
+.dashboard-publish-btn:active{
+  background-color: hsl(21, 85%, 61%);
+}
+
+/* CSS for Dropdown Menu */
+.dropdown-container {
+  width: 100%;
+}
+
+.dropdown-container select {
+  appearance: none; 
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 94%;
+  border-color: hsl(0, 0%, 71%);
+}
+
+/* Style when dropdown is open */
+.dropdown-container select:focus {
+  outline: none;
+  border-color: #FF6612; /* Change border color when focused */
+  box-shadow: 0 0 5px hsl(21, 89%, 70%); /* Add shadow when focused */
+}
+
+/* Style for dropdown options */
+.dropdown-container select option {
+  padding: 30px 20px;
+}
+
+/* Style for dropdown container */
+.dropdown-container:before {
+  content: '\25BC';
+  position: relative;
+  left: 710px;
+  top: 0px;
+  color:#FF6612;
+}
+
+/* Style for dropdown container on hover */
+/* .dropdown-container:hover:before {
+  color: #333; /* Change arrow color on hover */
+/* } */ 

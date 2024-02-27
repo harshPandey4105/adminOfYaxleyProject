@@ -1,0 +1,82 @@
+.signin-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../DashboardImages/dashboardHero.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.signin-container {
+    width: 40%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.signin-heading {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FF6612;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input[type='text'],
+input[type='password'] {
+    width: 80%;
+    padding: 15px 60px;
+    border: 1px solid hsl(0, 0%, 22%);
+    border-radius: 4px;
+    border-radius: 30px;
+}
+input:hover{
+    background-color: #ebe8e8;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+}
+i{
+    position: relative;
+    left: 40px;
+    color: black;
+}
+.hover-input{
+    color: #FF6612;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 300px;
+    color: #FF6612;
+}
+
+.signin-button {
+    padding: 12px 120px;
+    background-color: #FF6612;
+    color: #fff;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.signin-button:hover {
+    background-color: hsl(21, 82%, 70%);
+}
